@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "recetario",
+    "slug": "recetario",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.diegoo.recetario",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8c590e0d-1c3b-4991-b0d9-28a5670f4db7"
+      }
+    },
+    "owner": "diego7817",
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
